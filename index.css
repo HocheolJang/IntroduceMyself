@@ -1,0 +1,13 @@
+.container {
+    margin-bottom: 50px;
+}
+
+.mainTitle {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 30px;
+}
