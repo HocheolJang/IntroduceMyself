@@ -56,7 +56,7 @@
                         </div>
                         <div class="col-6 text-center mainTitle">
                             <a class="blog-header-logo text-dark" href="#">Hocheol Jang </a>
-                            <img src="src/mimo.png" style="height: 60px; width: 60px">
+                            <img id = "titleImg" src="src/mimo.png">
                         </div>
                         <div class="col d-flex justify-content-end align-items-center">
                             <a class="text-muted" href="UnderConstruction.html" aria-label="Search">
@@ -100,8 +100,8 @@
                             <h3 class="mb-0">ENFJ-T</h3>
                             <p class="card-text mb-auto">정의로운 사회운동가입니다. 당신의 현재하는 사소한 행위는 잔잔한 물결처럼 서서히 퍼져나가 모든 이에게 영향을
                                 줍니다.</p>
-                            <p style="color: darkgrey">(내가...?)</p>
-                            <a href="mbti.html" class="stretched-link" style="color: black; text-decoration: underline">Continue
+                            <p id="amI">(내가...?)</p>
+                            <a href="mbti.html" class="stretched-link continue-reading">Continue
                                 reading...</a>
                         </div>
                         <div class="col-auto d-none d-lg-block">
@@ -116,7 +116,7 @@
                             <h3 class="mb-0">RoadCycle</h3>
                             <p class="mb-auto">최근 제가 가장 좋아하는 것은 로드자전거를 타는 것입니다. 최근 자전거 타다가 사고가 나서 쇄골 수술한다고 못탔지만...그래도 정말
                                 좋아요! 곧 다시 탈 예정입니다.</p>
-                            <a href="road.html" class="stretched-link" style="color: black; text-decoration: underline">Continue
+                            <a href="road.html" class="stretched-link continue-reading">Continue
                                 reading...</a>
                         </div>
                         <div class="col-auto d-none d-lg-block">
@@ -146,9 +146,8 @@
                         <div class="col p-4 d-flex flex-column position-static">
                             <strong class="d-inline-block mb-2 text-warning">정보</strong>
                             <h3 class="mb-0">White HoresTTi</h3>
-                            <span class="mb-auto">60년에 한 번 나온다는 백마띠입니다. 어르신들께서 성격이 아주<span
-                                    style="text-decoration: line-through">ㅈㄹ</span><span>맞을거라고 걱정했다죠...?</span><span>근데 전 순해요!</span>
-
+                            <span class="mb-auto">60년에 한 번 나온다는 백마띠입니다. 어르신들께서 성격이 아주</span>
+                                <span class="line-through">ㅈㄹ</span><span>맞을거라고 걱정했다죠...? 근데 전 순해요!</span>
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <img src="src/whitehorse.jpg" width="150" height="270">
@@ -243,7 +242,7 @@
                             </blockquote>
                         </ul>
                         <blockquote>
-                            <p style="font-size: 25px; font-weight: bold; text-align: center;">"삶은 순간의 합이다"</p>
+                            <p id="quote">"삶은 순간의 합이다"</p>
                         </blockquote>
                         <p> 제가 가장 좋아하는 문장입니다. 가치관?일 수도 있구요. 어쩌면 'Connecting the dots'와 같은 의미일 수 있겠네요.<br>
                             언젠가 뒤를 돌아보며 점(순간)을 연결하는 날이 있겠죠? 그 때를 생각하며 순간순간에 최선을 다하며 살고자 합니다.</p>
@@ -259,53 +258,53 @@
                         <hr>
                         <p>세상에는 참 재미있는 것이 많은 것같아요. 그래서 관심가는 것들이 계속 생겨요.<br>생각나는대로 계속 추가하며 적어볼게요!</p>
                         <li>음악</li>
-                        <blockquote style="padding-left: 20px">팝송, 재즈, 힙합, 발라드 다 좋아해요! 카페에서 좋은 노래 흘러나오면 스피커 앞에 가서 핸드폰 대고
+                        <blockquote class = "padding-left">팝송, 재즈, 힙합, 발라드 다 좋아해요! 카페에서 좋은 노래 흘러나오면 스피커 앞에 가서 핸드폰 대고
                             음악 찾는 사람이 저에요...
                         </blockquote>
                         <li>인테리어</li>
-                        <blockquote style="padding-left: 20px">예쁜집에 대한 로망. 다들 있으시죠...? 유튜브, 오늘의 집 많은 것을 봅니다</blockquote>
+                        <blockquote class = "padding-left">예쁜집에 대한 로망. 다들 있으시죠...? 유튜브, 오늘의 집 많은 것을 봅니다</blockquote>
                         <li>IOT</li>
-                        <blockquote style="padding-left: 20px">조금 더 편하게 살고자 시작한 IOT, 저희 집에는 많은 기능들이 숨어있답니다.<br>
+                        <blockquote class = "padding-left">조금 더 편하게 살고자 시작한 IOT, 저희 집에는 많은 기능들이 숨어있답니다.<br>
                             ex. 창문을 열면 공기청정기 바로 꺼지는 것, 옷방에 들어가면 불이 켜졌다가 나오면 꺼지는 것, 블라인드가 아침에 올라갔다가 자기전에 내려가는 것 등
                         </blockquote>
                         <li>주식</li>
-                        <blockquote style="padding-left: 20px">코로나때 시작어요! 현재는 미국 주식만 합니다. 그냥 더 좋은 회사가 많아서요. 좋은 회사있으면
+                        <blockquote class = "padding-left">코로나때 시작어요! 현재는 미국 주식만 합니다. 그냥 더 좋은 회사가 많아서요. 좋은 회사있으면
                             알려주세요~
                         </blockquote>
                         <li>자전거(로드사이클)</li>
-                        <blockquote style="padding-left: 20px">여자친구의 권유로 우연히 시작했다가 이젠 여자친구가 후회하고 있을 정도로 많이 탔습니다. 쇄골이
+                        <blockquote class = "padding-left">여자친구의 권유로 우연히 시작했다가 이젠 여자친구가 후회하고 있을 정도로 많이 탔습니다. 쇄골이
                             부러지기 전까지...시간되시는 분들 같이 남북이나
                             동부5고개 가요!
                         </blockquote>
                         <li>바둑</li>
-                        <blockquote style="padding-left: 20px">최근 최애 취미입니다. 프로기사님께 배우고 있어요. 하루에 1~2판씩 꼭 두곤해요. 진짜 재밌는데 젊은
+                        <blockquote class = "padding-left">최근 최애 취미입니다. 프로기사님께 배우고 있어요. 하루에 1~2판씩 꼭 두곤해요. 진짜 재밌는데 젊은
                             사람들이 별로 안좋아해서 아쉬워요..
                         </blockquote>
                         <li>미국</li>
-                        <blockquote style="padding-left: 20px">미국이 어떻게 취향이냐고요? 취향입니다. (정치 그런거 말구요...) 미국에서 1년간 살아서 미국에
+                        <blockquote class = "padding-left">미국이 어떻게 취향이냐고요? 취향입니다. (정치 그런거 말구요...) 미국에서 1년간 살아서 미국에
                             빠져들었죠.
                             언젠가 한 번 더 살고싶은 나라. 미국 국가를 들으면 기분이 좋아져요! 이상할 수 있지만 뭔가 가슴이 벅차올라요...<br>
                             <a href="https://youtu.be/N_lCmBvYMRs?t=62">> 들어보러 가기(제가 가장 좋아하는 버전)</a></blockquote>
 
                         <li>풋볼(미국미식축구)</li>
-                        <blockquote style="padding-left: 20px">잉글랜드 패트리어츠를 좋아하다가 최근에는 캔자스시티 치프스로 마음이 가고있어요...마홈스여 멋지게
+                        <blockquote class = "padding-left">잉글랜드 패트리어츠를 좋아하다가 최근에는 캔자스시티 치프스로 마음이 가고있어요...마홈스여 멋지게
                             자라주길!
                         </blockquote>
                         <li>러닝</li>
-                        <blockquote style="padding-left: 20px">친구들의 권유로 시작한 러닝. 아직 10km가 최대에요. 페이스도 5분 후반대 페이스. 가민/스트라바
+                        <blockquote class = "padding-left">친구들의 권유로 시작한 러닝. 아직 10km가 최대에요. 페이스도 5분 후반대 페이스. 가민/스트라바
                             친구 원하면 알려주세요!
                         </blockquote>
                         <li>야구</li>
-                        <blockquote style="padding-left: 20px">두산베어스의 왕팬입니다. 최근에 야구에 대한 관심은 줄어들었지만, 예전엔 매일 야구보는게
+                        <blockquote class = "padding-left">두산베어스의 왕팬입니다. 최근에 야구에 대한 관심은 줄어들었지만, 예전엔 매일 야구보는게
                             일상이었어요.
                         </blockquote>
                         <li>배구</li>
-                        <blockquote style="padding-left: 20px">남자배구보다는 여자배구를 더 좋아해요~(더 경기가 재밌어요) 좋아하는 선수는 GS칼텍스의 강소휘 선수?
+                        <blockquote class = "padding-left">남자배구보다는 여자배구를 더 좋아해요~(더 경기가 재밌어요) 좋아하는 선수는 GS칼텍스의 강소휘 선수?
                             스파이크 엄청 리드미컬하고 포효하는거 진짜
                             멋있어요!
                         </blockquote>
                         <li>스쿼시</li>
-                        <blockquote style="padding-left: 20px">3년전쯤 취미였는데 엘보우랑 족저근막염이 계속 걸려서 접었지만 늘 라켓은 내 방 한켠에
+                        <blockquote class = "padding-left">3년전쯤 취미였는데 엘보우랑 족저근막염이 계속 걸려서 접었지만 늘 라켓은 내 방 한켠에
                             자리잡고있답니다.
                         </blockquote>
 
@@ -324,13 +323,13 @@
                     <div class="p-4">
                         <h4 class="font-italic">Contact</h4>
                         <ol class="list-unstyled">
-                            <li><img src="src/github.png" style="width: 20px; height: 20px;"><a
+                            <li><img src="src/github.png" class="about-Icon"><a
                                     href="https://github.com/HocheolJang"> GitHub</a></li>
-                            <li><img src="src/blog.png" style="width: 20px; height: 20px;"><a
+                            <li><img src="src/blog.png" class="about-Icon"><a
                                     href="https://hocheoljang.github.io/"> Blog</a></li>
-                            <li><img src="src/email.png" style="width: 20px; height: 20px;"><a
+                            <li><img src="src/email.png" class="about-Icon"><a
                                     href="mailto:daaan0415@gmail.com"> Email</a></li>
-                            <li><img src="src/fb.png" style="width: 20px; height: 20px;"><a
+                            <li><img src="src/fb.png" class="about-Icon"><a
                                     href="https://www.facebook.com/hochul.jang.9"> Facebook</a></li>
                         </ol>
                     </div>
@@ -345,9 +344,9 @@
                 <div class="navbar navbar-light bg-light">
                     <ul class="nav">
                         <p>
-                            <a href="#" style="color: brown">최상단으로 올라가기 !</a>
+                            <a href="#" class="textColor-brown">최상단으로 올라가기 !</a>
                         </p>
-                        <p style="color: black">
+                        <p class="textColor-black">
                             ⓒ Hocheol Jang
                         </p>
                     </ul>

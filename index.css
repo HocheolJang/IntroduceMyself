@@ -11,3 +11,43 @@
 ul {
     padding-left: 30px;
 }
+
+#titleImg {
+    height: 60px;
+    width: 60px
+}
+
+#amI {
+    color: darkgrey;
+}
+
+.continue-reading {
+    color: black;
+    text-decoration: underline
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+#quote {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.padding-left {
+    padding-left: 20px;
+}
+
+.textColor-black{
+    color: black;
+}
+
+.textColor-brown{
+    color: brown;
+}
+
+.about-Icon{
+    width: 20px;
+    height: 20px;
+}
