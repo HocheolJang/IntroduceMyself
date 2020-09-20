@@ -71,3 +71,7 @@ ul {
   z-index: 2;
   position: relative;
 }
+
+#comment-title{
+    margin-top: 100px;
+}
